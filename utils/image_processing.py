@@ -5,8 +5,4 @@ image_path = "C:/Users/thiba/OneDrive/Documents/dev_projects/painting-style-tran
 
 def get_image_dimensions(image_path):
     image = Image.open(image_path)
-    return image.size, image.getbands()
-
-
-dimensions = get_image_dimensions(image_path=image_path)
-print(dimensions)
+    return image.size
