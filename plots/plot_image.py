@@ -1,5 +1,4 @@
 import os
-
 import matplotlib.pyplot as plt
 from utils.image_processing import get_image_dimensions
 
