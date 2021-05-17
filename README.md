@@ -4,6 +4,11 @@
 
 This project aims at extracting the style from a painting and apply it to pictures. The extracted style will act as a filter, like the one you can commonly use on social media.
 
+### Project steps
+
+1. Preprocess paintings images
+2. Implement the VGG neural network
+3. Apply the output style to an existing picture
 
 ### Reference study
 
