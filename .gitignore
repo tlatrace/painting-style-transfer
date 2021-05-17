@@ -1,0 +1,5 @@
+# Ignore the dataset zip
+archive.zip
+
+# Ignore the dataset images
+ressources

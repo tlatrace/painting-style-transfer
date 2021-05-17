@@ -18,8 +18,12 @@ The dataset used from this project was taken from kaggle.com : it contains multi
 
 Link : https://www.kaggle.com/delayedkarma/impressionist-classifier-data
 
+The dataset is composed of multiple pictures of 10 famous painters paintings. They are in JPG format. The first step is to visualize them.
+For this, one should convert the JPG files into numpy arrays, data structure that Python can easily handle.
+
 ### Methods
 
-The first idea is to implement a CNN model to extract the style of a painting. 
+The first idea is to implement a CNN model to extract the style of a painting.
+The model will be trained on 10 famous painters artwork in order to extract the 10 corresponding styles.
 The second part will consist of applying this style to a picture of a day-to-day moment.
 
